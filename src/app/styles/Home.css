@@ -1,0 +1,10 @@
+main {
+  background-image: url("/crowdfunding-product/public/images/imageHeroDesktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: red; /* Change to your desired text color */
+}
