@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import homeStyles from "@/app/styles/Home.css";
+import CallToActionCard from "./components/CallToActionCard";
 
 const Home = () => {
   return (
@@ -48,6 +49,7 @@ const Home = () => {
           <p style={{ paddingRight: "3em" }}>Get Started</p>
         </div>
       </div>
+      <CallToActionCard />
     </main>
   );
 };
