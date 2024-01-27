@@ -1,0 +1,65 @@
+$productDescription: --bs-body-color-rgb;
+$productDescriptionPaddingTop: 0.5em;
+$callToActionBtn: 4em;
+
+.cardBtm {
+  padding-top: 4em;
+}
+
+.bookmark-container {
+  position: relative;
+}
+
+.bookmark-bar {
+  width: 80%;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px solid #d8d9da;
+  box-sizing: border-box;
+  padding-left: 40px; /* Ensure there is enough space for the circle on the left */
+  background-color: #d8d9da;
+}
+
+.bookmark-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.8em;
+  height: 2.8em;
+  background-color: #272829; /* Darkened color for the circle */
+  border-radius: 50%;
+}
+
+.bookmark-icon::before {
+  color: #fff; /* Color of the magnifying glass icon */
+  display: block;
+  text-align: center;
+  line-height: 20px; /* Should match the height of the circle */
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.faBookmark {
+  color: #d8d9da;
+  padding-left: 1em;
+  margin-top: 0.8em;
+}
+
+.productDescription {
+  color: $productDescription;
+  padding-top: $productDescriptionPaddingTop;
+  font-size: medium;
+}
+
+.callToActionBtn {
+  padding-left: $callToActionBtn;
+  width: 50%;
+  font-size: 1rem;
+  padding: 0.7em;
+  border-radius: 50px;
+  background-color: #40f8ff;
+}
